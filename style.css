@@ -13,6 +13,7 @@ header{
   left: 0;
   width: 100%;
   padding: 10px;
+  z-index: 1;
 }
 
 main{
@@ -86,4 +87,85 @@ li{
   top: 50px;
   left: 42px;
   font-family: 'Kanit';
+}
+
+#Maxfel{
+  position: relative;
+  background-color: #004e9c;
+  height: 75%;
+}
+
+#Musik{
+  background-color: #045eb9;
+  height: 500px;
+}
+
+#Game-Wiki{
+  background-color: aliceblue;
+  height: 500px;
+}
+
+#top{
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: 'Fredoka One';
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  color: #17234d;
+}
+
+#Was{
+  color: #17234D;
+  font-family: 'Kanit';
+  font-weight: 500;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+#was-erklärung{
+  margin-left: 10px;
+  margin-right: 230px;
+  font-family: 'Kanit';
+  font-weight: 400;
+  margin-top: 5px;
+  width: 74%;
+}
+
+*::-webkit-scrollbar{
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+  border-radius: 6px;
+  background-color: #345AA0;
+}
+
+*::-webkit-scrollbar-track:hover {
+  border-radius: 6px;
+  background-color: #345AA0;
+}
+
+*::-webkit-scrollbar-track:active {
+  border-radius: 6px;
+  background-color: #345AA0;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #46D0DF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  border-radius: 6px;
+  background-color: #1DA39F;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  border-radius: 6px;
+  background-color: #47A9C2;
 }
